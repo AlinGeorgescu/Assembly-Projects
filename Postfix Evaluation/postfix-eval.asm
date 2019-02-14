@@ -14,8 +14,7 @@ section .data
 section .text
 global CMAIN
 CMAIN:
-        push ebp
-        mov ebp, esp
+        enter 0, 0
         
         GET_STRING expr, MAX_INPUT_SIZE
         
@@ -149,5 +148,5 @@ final_sir:
         NEWLINE
 
         xor eax, eax
-        pop ebp
+        leave
         ret
