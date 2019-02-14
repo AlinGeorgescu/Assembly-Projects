@@ -6,7 +6,7 @@
 %define MAX_INPUT_SIZE 4096
 
 section .bss
-	    expr: resb MAX_INPUT_SIZE
+	    expr resb MAX_INPUT_SIZE
 
 section .data
         ten dd 10
