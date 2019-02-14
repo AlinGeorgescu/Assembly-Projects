@@ -6,10 +6,10 @@ All programs shall be compiled using the provided *Makefile*.
 
 Example:
 ```
-$ ./tema1
+$ ./postfix_eval
 -200 150 60 + 10 - /
 -1
-$ ./tema1
+$ ./postfix_eval
 300 400 + 10 *
 7000
 ```
